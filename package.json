@@ -1,0 +1,29 @@
+{
+  "name": "css-text-transform",
+  "version": "0.0.1",
+  "homepage": "http://github.com/mrmrs/css-text-transform",
+  "description": "Css module of single purpose classes for text transform",
+  "keywords": [
+    "css",
+    "oocss",
+    "",
+    ""
+  ],
+  "css-text-transform": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-text-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/repo/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
