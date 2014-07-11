@@ -25,7 +25,7 @@ or download the css on github and include in your project.
 .ttn { text-transform: none; }
 .ttf { text-transform: full-width; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ttc-ns { text-transform: capitalize; }
   .ttu-ns { text-transform: uppercase; }
   .ttl-ns { text-transform: lowercase; }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .ttf-ns { text-transform: full-width; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ttc-m { text-transform: capitalize; }
   .ttu-m { text-transform: uppercase; }
   .ttl-m { text-transform: lowercase; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .ttf-m { text-transform: full-width; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ttc-l { text-transform: capitalize; }
   .ttu-l { text-transform: uppercase; }
   .ttl-l { text-transform: lowercase; }
