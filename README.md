@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-text-transform)
 ## File Size
 
 943B text-transform.css
-757B text-transform.min.css
+757B text-transform.min.css 
+201B minified and gzipped
 
 ## The Code
 ```
