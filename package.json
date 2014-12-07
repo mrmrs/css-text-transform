@@ -1,5 +1,6 @@
 {
   "name": "css-text-transform",
+  "style": "text-transform.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-text-transform",
   "description": "Css module of single purpose classes for text transform",
