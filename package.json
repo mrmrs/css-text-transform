@@ -1,7 +1,7 @@
 {
   "name": "css-text-transform",
   "style": "text-transform.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-text-transform",
   "description": "Css module of single purpose classes for text transform",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-text-transform.css > css/css-text-transform.css && tachyons src/css-text-transform.css --minify > css/css-text-transform.min.css && tachyons src/css-text-transform.css --generate-docs --package=../../package.json > readme.md"
