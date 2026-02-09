@@ -8,7 +8,7 @@
 .ttn { text-transform: none; }
 .ttf { text-transform: full-width; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .ttc-s { text-transform: capitalize; }
   .ttu-s { text-transform: uppercase; }
   .ttl-s { text-transform: lowercase; }
@@ -16,7 +16,7 @@
   .ttf-s { text-transform: full-width; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .ttc-m { text-transform: capitalize; }
   .ttu-m { text-transform: uppercase; }
   .ttl-m { text-transform: lowercase; }
@@ -24,7 +24,7 @@
   .ttf-m { text-transform: full-width; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .ttc-l { text-transform: capitalize; }
   .ttu-l { text-transform: uppercase; }
   .ttl-l { text-transform: lowercase; }
