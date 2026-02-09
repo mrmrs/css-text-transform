@@ -1,38 +1,44 @@
 {
   "name": "css-text-transform",
-  "style": "text-transform.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-text-transform",
-  "description": "Css module of single purpose classes for text transform",
+  "version": "2.0.0",
+  "description": "Functional CSS for text-transform",
+  "style": "dist/text-transform.css",
+  "main": "dist/text-transform.css",
+  "exports": {
+    ".": "./dist/text-transform.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "text-transform"
+    "text-transform",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-text-transform": {
+  "homepage": "https://github.com/mrmrs/css-text-transform",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-text-transform.git"
+    "url": "https://github.com/mrmrs/css-text-transform.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-text-transform/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-text-transform/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
